@@ -1,0 +1,8 @@
+.gt .center-wrap .content-list .more-grid {
+  background-image: linear-gradient(180deg, #BD5EE8 0%, #832ABB 98%);
+}
+
+.gt .center-wrap .content-list .more-grid ul {
+  padding-left: 52px;
+  width: 184px;
+}

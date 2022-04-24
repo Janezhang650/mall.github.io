@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>慕云游 - 机票、酒店、旅游攻略</title>
+  <meta name="keywords" content="机票，酒店，旅游攻略，签证，出国，自由行">
+  <meta name="description" content="慕云游有10多年旅游行业经验，为您提供全方位旅游服务">
+</head>
+<body>
+  <header class="site-bar">
+    <!-- topbar -->
+    {{ include '../../components/topbar/topbar.art' }}
+    <!-- main-nav -->
+    {{ include '../../components/main-nav/main-nav.art' }}
+    <!-- header-icon -->
+    {{ include '../../components/header-icon/header-icon.art' }}
+  </header>
+
+  <!-- banner -->
+  <section class="banner" id="banner">
+    {{ include '../index/components/carsousel/carousel.art' }}
+    <div class="center-wrap">
+      <!-- menu -->
+      {{ include '../index/components/menu/menu.art' }}
+    </div>
+  </section>
+  <!-- fav-ad -->
+  <section class="fav-ad content-wrap">
+    <div class="center-wrap">
+      {{ include '../index/components/fav-ad/fav-ad.art'}}
+    </div>
+  </section>
+
+  <!-- 新鲜甩尾 -->
+  <section class="xxsw content-wrap">
+    <div class="center-wrap">
+      {{ include '../index/components/xxsw/xxsw.art' }}
+    </div>
+  </section>
+
+  <!-- 机酒自由行 -->
+  <section class="jjzyx content-wrap">
+    <div class="center-wrap">
+      {{ include '../index/components/jjzyx/jjzyx.art' }}
+    </div>
+  </section>
+
+  <!-- 当地玩乐 -->
+  <section class="ddwl content-wrap">
+    <div class="center-wrap">
+      {{ include '../index/components/ddwl/ddwl.art' }}
+    </div>
+  </section>
+
+  <!-- 特色当地体验 -->
+  <section class="tsddty content-wrap">
+    <div class="center-wrap">
+      {{ include '../index/components/tsddty/tsddty.art' }}
+    </div>
+  </section>
+
+  <!-- 最世界 -->
+  <section class="zsj content-wrap">
+    <div class="center-wrap">
+      {{ include '../index/components/zsj/zsj.art' }}
+    </div>
+  </section>
+
+  <!-- 跟团/半自助游 -->
+  <section class="gt content-wrap">
+    <div class="center-wrap">
+      {{ include '../index/components/gt/gt.art' }}
+    </div>
+  </section>
+
+  <!-- 跟团/半自助游 -->
+  <footer>
+    {{ include '../../components/footer-nav/footer-nav.art' }}
+    {{ include '../../components/footer-bar/footer-bar.art' }}
+  </footer>
+
+  <!-- 回到顶部 -->
+  {{ include '../../components/backtotop/backtotop.art' }}
+</body>
+</html>

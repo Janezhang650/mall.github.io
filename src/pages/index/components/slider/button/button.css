@@ -1,0 +1,18 @@
+.banner .center-wrap .btn {
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+  width: 32px;
+  height: 44px;
+  background-image: url(../../../../../assets/images/icons.png);
+}
+
+.banner .center-wrap .left-btn {
+  left: -50px;
+  background-position: -20px -94px;
+}
+
+.banner .center-wrap .right-btn {
+  right: -50px;
+  background-position: -19px -29px;
+}

@@ -1,0 +1,77 @@
+.footer-nav {
+  height: 220px;
+  background-color: #F7F7F7;
+}
+
+.footer-nav .center-wrap ul {
+  padding-top: 36px;
+}
+
+.footer-nav .center-wrap ul li {
+  float: left;
+  padding: 0 24px;
+  border-right: 1px solid #1C1F21;
+  line-height: 18px;
+}
+
+.footer-nav .center-wrap ul li:first-child {
+  padding-left: 0;
+}
+
+.footer-nav .center-wrap ul li:last-child {
+  border-right: none;
+}
+
+.footer-nav .center-wrap ul li a {
+  color: #1C1F21;
+  font-size: 18px;
+}
+
+.footer-nav .center-wrap .dlbox {
+  margin-top: 40px;
+}
+
+.footer-nav .center-wrap .dlbox dl {
+  position: relative;
+  float: left;
+  width: 304px;
+  margin-right: 30px;
+  padding-left: 60px;
+}
+
+.footer-nav .center-wrap .dlbox dl:last-child {
+  margin-right: 0;
+}
+
+.footer-nav .center-wrap .dlbox dl::before {
+  position: absolute;
+  top: 0;
+  right: 314px;
+  content: '';
+  width: 60px;
+  height: 60px;
+  background-image: url(../../assets/images/icons.png);
+}
+
+.footer-nav .center-wrap .dlbox dl:first-child::before {
+  background-position: -150px -31px;
+}
+
+.footer-nav .center-wrap .dlbox dl:nth-child(2)::before {
+  background-position: -150px -104px;
+}
+
+.footer-nav .center-wrap .dlbox dl:last-child::before {
+  background-position: -150px -178px;
+}
+
+.footer-nav .center-wrap .dlbox dl dt {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1C1F21;
+}
+
+.footer-nav .center-wrap .dlbox dl dd {
+  font-size: 14px;
+color: #1C1F21;
+}

@@ -1,0 +1,50 @@
+.site-bar {
+  min-width: 1152px;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+
+
+.fav-ad {
+  width: 100%;
+  height: 110px;
+}
+
+.xxsw {
+  width: 100%;
+  height: 738px;
+  background-color: #F7F7F7;
+  margin-top: 32px;
+}
+
+.jjzyx {
+  width: 100%;
+  height: 738px;
+}
+
+.ddwl {
+  width: 100%;
+  height: 586px;
+  background-color: #F7F7F7;
+}
+
+.tsddty {
+  width: 100%;
+  height: 456px;
+}
+
+.zsj {
+  width: 100%;
+  height: 738px;
+  background-color: #F7F7F7;
+}
+
+.gt {
+  width: 100%;
+  height: 738px;
+}

@@ -1,0 +1,16 @@
+.backtotop {
+  position: fixed;
+  bottom: 256px;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  background-color: rgba(28,31,33,0.50);
+  display: none;
+}
+
+.backtotop>a {
+  font-size: 32px;
+  color: #fff;
+  line-height: 60px;
+}

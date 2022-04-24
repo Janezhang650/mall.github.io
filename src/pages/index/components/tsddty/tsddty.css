@@ -1,0 +1,44 @@
+.tsddty .center-wrap .title h2 {
+  position: relative;
+  left: 50%;
+  margin-left: -120px;
+}
+
+.tsddty>.center-wrap>.content-list>li {
+  width: 264px;
+  height: 290px;
+  margin-right: 32px;
+}
+
+.tsddty>.center-wrap>.content-list>li:nth-child(3) {
+  margin-right: 32px;
+}
+
+.tsddty>.center-wrap>.content-list>li:last-child {
+  margin-right: 0;
+}
+
+.tsddty>.center-wrap>.content-list>li .wordbox {
+  padding: 16px 14px;
+  color: #000;
+}
+
+.tsddty>.center-wrap>.content-list>li .wordbox .proname {
+  width: 242px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tsddty>.center-wrap>.content-list>li .wordbox p:last-child {
+  font-size: 12px;
+}
+
+.tsddty>.center-wrap>.content-list>li .wordbox .score {
+  color: #FA6400;
+}
+
+.tsddty>.center-wrap>.content-list>li .wordbox i {
+  font-style: normal;
+  font-size: 16px;
+}

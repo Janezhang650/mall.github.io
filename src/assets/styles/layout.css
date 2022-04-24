@@ -1,0 +1,213 @@
+.content-wrap .title h2 {
+  float: left;
+  color: #1C1F21;
+  margin: 40px 12px 32px 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.content-wrap .title em {
+  float: left;
+  position: relative;
+  top: 64px;
+}
+
+.content-wrap .title .title-nav {
+  position: relative;
+  top: 64px;
+  float: right;
+}
+
+.content-wrap .title .title-nav>li {
+  float: left;
+  margin-right: 14px;
+}
+
+.content-wrap .title .title-nav>li.active {
+  border-bottom: #20BD9A solid 4px;
+}
+
+.content-wrap .title .title-nav>li:hover {
+  box-shadow: none;
+}
+
+.content-wrap .title .title-nav>li a {
+  font-size: 14px;
+  color: #1C1F21;
+}
+.content-wrap .title .title-nav>li.active a{
+  color: #20BD9A;
+}
+
+.content-wrap>li:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.20);
+}
+
+.content-wrap img {
+  transition: transform .4s ease 0s;
+}
+
+.content-wrap img:hover {
+  transform: scale(1.1);
+}
+
+.content-wrap .picbox {
+  position: relative;
+  overflow: hidden;
+}
+
+.content-wrap .content-list .big-grid.havehover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  opacity: 0;
+  transition: opacity .4s ease 0s;
+  z-index: 999;
+}
+
+.content-wrap .content-list .big-grid:hover.havehover::before {
+  opacity: 1;
+}
+
+.content-wrap .content-list .big-grid.havehover .wordbox {
+  left: 0;
+  bottom: -60px;
+  padding: 20px 26px 40px;
+  height: 22px;
+  line-height: 22px;
+  z-index: 9999;
+  transition: bottom .4s ease 0s;
+}
+
+.content-wrap .content-list .big-grid:hover.havehover .wordbox {
+  bottom: 0px;
+}
+
+.content-wrap .content-list .big-grid.havehover .circle {
+  position: absolute;
+  top: -106px;
+  left: 50%;
+  margin-left: -53px;
+  padding-top: 28px;
+  width: 106px;
+  height: 106px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  transition: top .4s ease 0s;
+  box-sizing: border-box;
+  z-index: 9999;
+}
+
+.content-wrap .content-list .big-grid:hover.havehover .circle {
+  top: 60px;
+}
+
+.content-wrap .content-list>li {
+  float: left;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  width: 264px;
+  height: 270px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+}
+
+.content-wrap .content-list>li:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.20);
+}
+
+.content-wrap .content-list>li:nth-child(3),
+.content-wrap .content-list>li:nth-child(7) {
+  margin-right: 0;
+}
+
+.content-wrap .content-list>li .picbox .tag {
+  position: absolute;
+  bottom: 110px;
+  left: 0;
+  width: 74px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: rgba(0, 0, 0, .55);
+}
+
+.content-wrap .content-list .grid .picbox .tag {
+  bottom: 5px;
+  color: #fff;
+}
+
+.content-wrap .content-list .big-grid {
+  position: relative;
+  width: 560px;
+  overflow: hidden;
+}
+
+.content-wrap .content-list .big-grid a {
+  color: #fff;
+}
+
+.content-wrap .content-list .big-grid .wordbox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 30px 26px;
+  width: 100%;
+  height: 103px;
+  background-color: rgba(0, 0, 0, .55);
+  box-sizing: border-box;
+}
+
+.content-wrap .content-list .grid .wordbox {
+  padding: 20px 12px;
+  width: 100%;
+  height: 86px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #1C1F21;
+}
+
+.content-wrap .content-list .more-grid {
+  background-image: linear-gradient(180deg, #34E3BC 0%, #15AF7A 98%);
+}
+
+.content-wrap .content-list .more-grid a {
+  color: #fff;
+}
+
+.content-wrap .content-list .more-grid .more-info {
+  margin: 46px 14px 28px;
+  width: 236px;
+  height: 44px;
+  text-align: center;
+}
+
+.content-wrap .content-list .more-grid span {
+  margin: 28px 108px;
+  font-size: 48px;
+}
+
+.content-wrap .content-list .more-grid ul {
+  margin: 46px 14px;
+  padding-left: 16px;
+  width: 236px;
+  height: 22px;
+}
+
+.content-wrap .content-list .more-grid ul li {
+  float: left;
+  padding: 0 10px;
+  border-right: #fff solid 1px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.content-wrap .content-list .more-grid ul li:last-child {
+  border-right: none;
+}

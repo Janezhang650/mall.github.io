@@ -1,0 +1,33 @@
+
+
+.xxsw-list li {
+  float: left;
+  width: 264px;
+  height: 270px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+
+.xxsw-list li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.xxsw-list li .picbox {
+  width: 100%;
+  height: 184px;
+}
+
+.xxsw-list li .picbox img {
+  width: 100%;
+  height: 100%;
+}
+
+.xxsw-list li .wordbox {
+  width: 249px;
+  padding-left: 15px;
+  padding-top: 20px;
+  height: 66px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #1C1F21;
+}

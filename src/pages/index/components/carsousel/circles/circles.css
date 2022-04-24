@@ -1,0 +1,25 @@
+.banner .center-wrap .circles {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -80px;
+  width: 160px;
+  height: 20px;
+}
+
+.banner .center-wrap .circles li {
+  float: left;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  border-radius: 10px;
+  background-color: rgba(15, 242, 166, 0.66);
+}
+
+.banner .center-wrap .circles li.current {
+  width: 30px;
+}
+
+.banner .center-wrap .circles li:last-child {
+  margin-right: 0;
+}

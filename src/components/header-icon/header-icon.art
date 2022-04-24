@@ -1,0 +1,11 @@
+<div class="header-icon">
+  <div class="center-wrap">
+    <div class="logo">
+      <h1>慕云游商城</h1>
+    </div>
+    <div class="search">
+      <input type="text" placeholder="查询目的地/酒店/机票/攻略...">
+      <a href="" class="btn iconfont text-center">&#xe637;</a>
+    </div>
+  </div>
+</div>

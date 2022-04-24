@@ -1,0 +1,123 @@
+.topbar {
+  height: 32px;
+  width: 100%;
+  background-color: #2A2A2A;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li {
+  float: left;
+  margin-right: 18px;
+  line-height: 32px;
+  font-size: 12px;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu {
+  position: relative;
+  padding-right: 12px;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu .arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+  margin-left: 2px;
+  width: 12px;
+  height: 12px;
+  transition: transform .5s ease 0s;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu:hover .arrow {
+  transform: rotate(-180deg);
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu .arrow i {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  transform: rotate(45deg);
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu .arrow b {
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  width: 4px;
+  height: 4px;
+  background-color: #2A2A2A;
+  transform: rotate(45deg);
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu>.menu {
+  position: absolute;
+  top: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20);
+  z-index: 99999;
+  display: none;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu:hover>.menu {
+  display: block;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu>.menu.sqmenu {
+  width: 121px;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu>.menu.shopmenu {
+  width: 76px;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu>.menu.jdmenu {
+  width: 64px;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu>.menu>ul {
+  padding: 6px 0 10px;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu>.menu>ul>li {
+  padding: 0 7px;
+  line-height: 18px;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu>.menu>ul>li a {
+  font-size: 12px;
+  color: #1C1F21;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li.have-menu>.menu>ul>li:hover a {
+  color: #20BD9A;
+}
+
+.topbar .center-wrap .shortcut-links>ul>li>a {
+  color: #fff;
+}
+
+.topbar .center-wrap .topbar-right {
+  float: right;
+}
+
+.topbar .center-wrap .topbar-right>ul>li {
+  float: left;
+  margin-right: 16px;
+  line-height: 32px;
+}
+
+.topbar .center-wrap .topbar-right>ul>li span {
+  color: #fff;
+}
+
+.topbar .center-wrap .topbar-right>ul>li a{
+  color: #fff;
+  font-size: 18px;
+}
+
+.topbar .center-wrap .topbar-right>ul>li:nth-child(6) a,
+.topbar .center-wrap .topbar-right>ul>li:nth-child(7) a
+{
+  font-size: 12px;
+}
